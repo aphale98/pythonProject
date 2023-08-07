@@ -43,7 +43,7 @@ print(dog)
 print(cat)
 
 # Encapsulation
-person = Person("Alice", 30)
+person = Person("Aman", 25)
 person.greet()
 
 # Polymorphism
