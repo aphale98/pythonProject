@@ -78,8 +78,8 @@ Fill the Login Details and Login Form
     Input Password      id:password     learning
     Click Element       css:input[value='user']
     Wait Until Element Is Visible       css:.modal-body
-    Click Button        id:okayBtn
-    Click Button        id:okayBtn
+    Click Button        okayBtn
+    Click Button        okayBtn
     Wait Until Element Is Not Visible   css:.modal-body
     Select From List By Value       css:select.form-control       teach
     Select Checkbox     terms
